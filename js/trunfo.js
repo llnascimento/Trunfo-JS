@@ -1,4 +1,4 @@
-var btn = document.getElementById("btn_battle");
+
 
 function btn_poke() {
 
@@ -81,5 +81,4 @@ function btn_poke() {
    
     */
 }
-// Adiciona o evento ao clicar no botão
-btn.onclick = btn_poke;
+

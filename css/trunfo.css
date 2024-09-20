@@ -1,3 +1,17 @@
+
+@font-face {
+    font-family: 'Pokemon';
+    src: url('../font/PKMN RBYGSC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Pokemon';
+    background-color: black;
+    color: white;
+}
+
 .info{
     display: flex;
     justify-content: space-around;
