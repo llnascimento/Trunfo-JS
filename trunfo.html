@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/trunfo.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="ico/Pokedex_tool_icon-icons.com_67529.ico" type="image/x-icon">
     <script src="js/trunfo.js"></script>
     <title>Batalha</title>
@@ -13,72 +13,51 @@
 
 <body>
 
-    <div class="info">
+    <footer>
+        <div class="bk">
+            <div class="bk2">
+                <div class="txt_title">
+                    <h3 id="txt_title">Shall we go to battle?</h3>
+                </div>
+            </div>
+            <div class="bk3">
 
-        <div class="jogador">
-            <h2>Seus Atributos</h2>
+                <div class="btn">
+                    <button id="btn" onclick="iniciarBatalha()">
+                        Battle
+                    </button>
+                </div>
+                <div class="caracteres">
 
-            <div class="uniao">
-                <h5>nome : </h5>
-                <p id="info_name_jogador"></p>
+                    <div class="divvida">
+                        <h5 id="hp" class="vida"></h5>
+                        <h5 id="hp_pts" class="vida_pts"></h5>
+                    </div>
+
+                    <div class="divforca">
+                    <h5 id="force" class="forca"></h5>
+                    <h5 id="force_pts" class="vida_pts"></h5>
+                </div>
+
             </div>
-            <div class="uniao">
-                <h5>tipo : </h5>
-                <p id="info_tipo_jogador"></p>
+
+
+                <br>
+
+                <div class="caracteres2">
+                <div class="divdefesa">
+                    <h5 id="defesa" class="defesa"></h5>
+                    <h5 id="defesa_pts" class="vida_pts"></h5>
+                </div>
+                    <div class="divdefesa">
+                    <h5 id="speed" class="velocidade"></h5>
+                    <h5 id="speed_pts" class="vida_pts"></h5>
+                </div>
             </div>
-            <div class="uniao">
-                <h5>vida : </h5>
-                <p id="info_vida_jogador"></p>
+                
             </div>
-            <div class="uniao">
-                <h5>forca : </h5>
-                <p id="info_forca_jogador"></p>
-            </div>
-            <div class="uniao">
-                <h5>defesa : </h5>
-                <p id="info_defesa_jogador"></p>
-            </div>
-            <div class="uniao">
-                <h5>velocidade : </h5>
-                <p id="info_velocidade_jogador"></p>
-            </div>
-            <img id="imgJogador">
         </div>
-        <div class="maquina">
-            <h2>Atributos - (maquina)</h2>
-
-            <div class="uniao">
-                <h5>nome : </h5>
-                <p id="info_name_maquina"></p>
-            </div>
-            <div class="uniao">
-                <h5>tipo : </h5>
-                <p id="info_tipo_maquina"></p>
-            </div>
-            <div class="uniao">
-                <h5>vida : </h5>
-                <p id="info_vida_maquina"></p>
-            </div>
-            <div class="uniao">
-                <h5>forca : </h5>
-                <p id="info_forca_maquina"></p>
-            </div>
-            <div class="uniao">
-                <h5>defesa : </h5>
-                <p id="info_defesa_maquina"></p>
-            </div>
-            <div class="uniao">
-                <h5>velocidade : </h5>
-                <p id="info_velocidade_maquina"></p>
-            </div>
-
-            <img id="imgMaquina">
-        </div>
-
-    </div>
-    <div class="btn_div"><button id="btn_battle" onclick="btn_poke()">Batalhar</button></div>
-
-
+    </footer>
 
 </body>
 

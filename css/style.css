@@ -1,0 +1,119 @@
+
+@font-face {
+    font-family: 'Pokemon';
+    src: url('../font/PKMN RBYGSC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Pokemon';
+    background-image: url("../img/fundo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bk {
+    position: absolute;
+    margin-bottom: 25px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background: #EFC939;
+    background: linear-gradient(135deg, #EFC939, #F4F26B);
+    width: 65%;
+    height: 155px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.bk2{
+    background-color: #025373;
+    width: 59%;
+    height: 125px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid white;
+}
+
+.bk3{
+    background-color: #025373;
+    width: 35%;
+    height: 125px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid white;
+}
+
+h3{
+    margin-left: 25px;
+    margin-top: 45px;
+    color: white;
+}
+h5{
+    color: white;
+}
+
+.caracteres{
+    display: flex;
+    justify-content: space-around;
+    z-index: -1;
+    margin-top: -45px;
+}
+
+.caracteres2{
+    display: flex;
+    justify-content: space-around;
+    z-index: -1;
+    margin-top: -5px;
+}
+
+.divvida{
+    margin-top: -10px;
+    width: 50px;
+}
+
+
+.vida{
+  text-align: center;
+}
+
+.vida_pts{
+    margin-top: -10px;
+    text-align: center;
+}
+
+.divforca{
+    margin-top: -10px;
+    width: 50px;
+}
+
+.divdefesa{
+    margin-top: -50px;
+    width: 50px;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+button{
+    padding: 10px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Pokemon';
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: all 1s ease-in;
+}
